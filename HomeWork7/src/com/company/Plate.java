@@ -23,7 +23,7 @@ public class Plate {
             }
 
         public void info () {
-            System.out.println ("plate: " + amountOfFood);
+            System.out.println ("Осталось еды в тарелке: " + amountOfFood);
         }
 
         public void addFood (int countFood) {

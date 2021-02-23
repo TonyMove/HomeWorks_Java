@@ -16,10 +16,10 @@ public class Cat {
     public void eat(Plate plate) {
         satiety = plate.decreaseFood(appetite);
         if (satiety == true) {
-            System.out.println("Кот " + name + " покушал и наелся");
+            System.out.println("Кот " + name + " покушал " + appetite + " и наелся");
         }
         else {
-            System.out.println("Кот " + name + " остался голодный");
+            System.out.println("Кот " + name + " остался голодный. Он хотел поесть " + appetite);
         }
 
     }
