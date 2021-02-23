@@ -4,6 +4,6 @@ import com.company.athlete.Athlete;
 
 public interface Obstacle {
 
-    boolean action (Athlete athlete);
+    boolean action(Athlete athlete);
 
 }
