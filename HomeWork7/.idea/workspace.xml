@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e208401c-fbaa-4ea3-985b-0e8a3f48cf59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Plate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="e208401c-fbaa-4ea3-985b-0e8a3f48cf59" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,6 +109,14 @@
       <option name="presentableId" value="Default" />
       <updated>1613998737967</updated>
     </task>
+    <task id="LOCAL-00001" summary="Выполнил домашнее задание № 7">
+      <created>1614090505009</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614090505009</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
