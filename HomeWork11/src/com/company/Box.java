@@ -3,6 +3,7 @@ package com.company;
 import com.company.fruit.Fruit;
 import com.company.fruit.SpecificFruit;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -13,7 +14,7 @@ public class Box<T extends Fruit & SpecificFruit> {
     private int capacity;
 
     public Box(int capacity, T... fruits) {
-        this.container = Arrays.asList(fruits);
+        this.container = new ArrayList<>(Arrays.asList(fruits));
         this.capacity = capacity;
     }
 
@@ -47,6 +48,9 @@ public class Box<T extends Fruit & SpecificFruit> {
         if (capacity - 1 > 0) {
             container.add(fruit);
             capacity--;
+        }
+        else {
+            System.out.println("нет места в коробке");
         }
     }
 
