@@ -36,10 +36,12 @@ class MainTest {
     }
 
     @Test
-    void getValuesAfterLastFourWaitException() {
+    void getValuesAfterLastFourFullArrayWaitException() {
         int[] originalArray = {1, 2, 3};
         Assertions.assertThrows(RuntimeException.class, () -> main.getValuesAfterLastFour(originalArray));
-
+    }
+    @Test
+    void getValuesAfterLastFourEmptyArrayWaitException() {
         int[] empty = {};
         Assertions.assertThrows(RuntimeException.class, () -> main.getValuesAfterLastFour(empty));
     }
